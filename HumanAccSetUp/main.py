@@ -42,7 +42,7 @@ def read_accounts():
       accounts.append(row)
   return accounts
 
-# Create a function to add a new human account using inputs. (10 points)
+# Create a function to add a new human account using inputs. 
 
 def new_account(accounts, living_array):
   firstname = input("Enter first name: ").capitalize() 
@@ -125,7 +125,7 @@ def new_account(accounts, living_array):
   return firstname, lastname, ID_number, email, password, age, gender, living_pod
 
 
-# Create a function to list all human's names, their email addresses, age, gender, and their designated living pod room number. (5 points)
+# Create a function to list all human's names, their email addresses, age, gender, and their designated living pod room number. 
 
 def read_list(accounts):
 
@@ -144,7 +144,7 @@ def read_list(accounts):
 
 
 
-# Create a search function to search for a human by last name. Then list all of the matches of the last name, first name, and their designated living pod room number. (10 points)
+# Create a search function to search for a human by last name. Then list all of the matches of the last name, first name, and their designated living pod room number. 
 
 def search_lastName(accounts):
   search_lastName =input("Enter the last name you are looking for: ").capitalize()
@@ -172,7 +172,7 @@ def search_lastName(accounts):
   print()   
    
     
-# Create a living pod search that shows how many humans are assigned to each pod and how many spaces are still available. (10 points)
+# Create a living pod search that shows how many humans are assigned to each pod and how many spaces are still available. 
 
 def search_living_pod(accounts):
   #Original slots 
@@ -239,7 +239,7 @@ def search_living_pod(accounts):
 
 
 
-# Create a function to display an administrator human population report that lists the account information for all human users - showing id number, first/last name, email and password. Require that an admin password is input before processing this request (let me know what it is!)  (10 points)
+# Create a function to display an administrator human population report that lists the account information for all human users - showing id number, first/last name, email and password. Require that an admin password is input before processing this request (let me know what it is!)  
 
 def human_report(accounts):
   admin_password_input = input("Password: ")
@@ -264,7 +264,7 @@ def human_report(accounts):
   
 
 
-# Create a delete function that will allow the user to delete a human from the system. (5 points)
+# Create a delete function that will allow the user to delete a human from the system. 
 
 def delete_acc(accounts):
   
