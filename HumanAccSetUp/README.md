@@ -2,7 +2,7 @@ This program was written in Python 3.8.2
 
 to run the code:
 python main.py
-<a href="https://replit.com/@PaolaPiety8/FinalProject#main.py">Run code</a>
+<a href="https://replit.com/@PaolaPiety8/FinalProject#main.py">Click for run code</a>
 
 This project was my final project for my class in Introduction to Scripting at Bellevue College. The assignment was to build a program using Python and a CSV file for a Human Mission to Mars Account Setup system. Build a menu system with the following functions:
 
